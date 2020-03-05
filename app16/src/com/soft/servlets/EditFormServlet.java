@@ -31,6 +31,7 @@ public class EditFormServlet extends HttpServlet {
 			out.println("<h3 style='color:blue;' align='center'>Student Update Form</h3>");
 			out.println("<h1 style='color:red;' align='center'>Student Not Existed</h1>");
 			out.println("<h3 align='center'>");
+			
 			out.println("<a href='./updateform.html'>|Student Update Form|</a>");
 			out.println("</h3></body></html>");
 		}else {
